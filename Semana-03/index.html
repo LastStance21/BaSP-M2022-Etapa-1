@@ -13,12 +13,14 @@
     <header>
     	<button class="h-menu"><i class="fa-solid fa-bars"></i></button>
         <a class="link-head" href="#">Tutorials</a> | <a class="link-head-2" href="">Contact</a>
-        <label class="search">Search</label>
-        <input class="search-bar" type="text" name="Search" placeholder="search" >
-        <i class="fa-solid fa-magnifying-glass"></i>
+		<label class="search">Search</label>
+		<div class="search-input">
+        	<input class="search-bar" type="text" name="Search" placeholder="search" >
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
         </input>
           <button>Login</button>
-          <button>Signup</button>
+          <button class="sign-up-button">Signup</button>
     </header>
     <section>
 			<aside class="nav-menu">
@@ -34,11 +36,11 @@
 					<p>
 						Contact
 					</p>
-					<div>
+					<p>
 						Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus,
 						ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum.
 						Sed nulla amet lorem feugiat tempus aliquam.
-					</div>
+					</p>
 					<i class="fa-solid fa-envelope"></i> <a href="">trackgenix@info.com </a>
 					<div>
 						<i class="fa-solid fa-house"></i> 
@@ -54,21 +56,21 @@
       <!--Here starts the upper part of the body, including the logo-->
 		<main class="main-body">
 			<section>
-				<div>
+				<div class="logo">
 					<img width="60" height="60" src="./images/Logo.svg"></img>
 					<h1>Trackgenix</h1>
-					</div>
 					<h3>Data Managment</h3>
-						<article>
-							<img width="623" height="325" src="./images/Data-Management-Platform.png" />
-								<p>
-									Presentation of the company : A nice message about us that you find very attractive, friendly, 
-									that gives you confidence to stay on the site.
-									Presentation of the company : 
-									A nice message about us that you find very attractive, friendly,
-									that gives you confidence to stay on the site.
-								</p>
-						</article>
+				</div>
+				<article>
+					<img class="f-image" src="./images/Data-Management-Platform.png" />
+						<p class="first-p">
+							Presentation of the company : A nice message about us that you find very attractive, friendly, 
+							that gives you confidence to stay on the site.
+							Presentation of the company : 
+							A nice message about us that you find very attractive, friendly,
+							that gives you confidence to stay on the site.
+						</p>
+				</article>
 				<!--Here begins the middle section of the body-->
 			</section>
 			<div>
@@ -146,41 +148,41 @@
 						</select>
 					</form>
 				</div>
-			</section>
+			</section>	
 				</main>
 							<!--menu bottom-->
-							<section class="bottom-menu">
-								<div>
-									<h5>Poducts</h5>
-									<ul>
-										<li><a href="#">Funcionalities</a></li>
-										<li><a href="#">Download</a></li>
-										<li><a href="#">Integration</a></li>
-										<li><a href="#">Extras</a></li>
-									</ul>
-								</div>
-								<div>
-									<h5>Company</h5>
-									<ul>
-										<li><a href="#">Information</a></li>
-										<li><a href="#">Clients</a></li>
-										<li><a href="#">Resources</a></li>
-										<li><a href="#">Blogs</a></li>
-									</ul>
-								</div>
-								<div>
-									<h5>Support</h5>
-									<ul>
-										<li><a href="#">Help</a></li>
-										<li><a href="#">Tutorials</a></li>
-										<li><a href="#">API</a></li>
-										<li><a href="#">Contacts</a></li>
-									</ul>
-								</div>
-							</section>
+			<section class="container">
+				<div class="products">
+					<h5>Poducts</h5>
+					<ul>
+						<li><a href="#">Funcionalities</a></li>
+						<li><a href="#">Download</a></li>
+						<li><a href="#">Integration</a></li>
+						<li><a href="#">Extras</a></li>
+					</ul>
+				</div>
+				<div class="company">
+					<h5>Company</h5>
+					<ul>
+						<li><a href="#">Information</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">Resources</a></li>
+						<li><a href="#">Blogs</a></li>
+					</ul>
+				</div>
+				<div class="support">
+					<h5 class>Support</h5>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tutorials</a></li>
+						<li><a href="#">API</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+			</section>
     <!--footer-->
-      <footer>
-          <div>
+      <footer class="footer">
+          <div class="footer-link">
             <a href="https://www.linkedin.com/login/es?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin">
               <img width="20" height="20" src="./images/linkedin-footer.png">
             </a>
@@ -197,9 +199,9 @@
               <img width="20" height="20" src="./images/github-footer.png">
             </a>
           </div>
-          <div>
-            <small>Montevido, Uruguay</small>
-            <small>Copyright 2022 Radium Rocket. All rights reserved.</small>
+          <div class="foter-info">
+            <small class="mvd">Montevido, Uruguay</small>
+            <small class="copy">Copyright 2022 Radium Rocket. All rights reserved.</small>
           </div>
       </footer>
   </body>
