@@ -2,9 +2,10 @@
 With this page, the user can manage a register of the employees and his works shifts on each project.
 ## How to use it?
 ```
-1. Right click on index.html
-2. Open it with your default browsser
-3. Check the landing
+1. Enter to "semana-03" folder
+2. Right click on index.html
+3. Open it with your default browsser
+4. Check the landing
 ```
 ## Here's a preview of the landing page:
 ![Screen Shot 2022-03-27 at 8 45 41 PM](https://user-images.githubusercontent.com/83614234/160306447-1c9dfda3-c36e-47d4-b657-dc14c0553a16.png)

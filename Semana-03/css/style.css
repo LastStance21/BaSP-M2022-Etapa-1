@@ -225,8 +225,20 @@ main {
 .form-title{
     display: inline-block;
     border-bottom: black solid;
+    margin-top: 20px;
+    margin-bottom: 7px;
 }
 #name[type=text] {
+    display: block;
+    width: 20%;
+    padding: 4px 8px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+    border: 2px solid #7B61FF;
+    border-radius: 10px;
+}
+#email[type=email] {
+    display: block;
     width: 20%;
     padding: 4px 8px;
     margin: 8px 0;
@@ -234,7 +246,15 @@ main {
     border: 2px solid #7B61FF;
     border-radius: 10px;
 }
-
+#contact[type=select] {
+    display: block;
+    width: 20%;
+    padding: 4px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #7B61FF;
+    border-radius: 10px;
+}
 /*bottom menu*/
 .container{
     background-color: #50A780;
