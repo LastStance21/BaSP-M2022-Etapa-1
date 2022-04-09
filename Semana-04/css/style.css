@@ -1,0 +1,39 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    background-color: #50A780;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+.h-menu{
+    background: transparent;
+    color: #ffffff;
+    border: none;
+}
+.link-head, span, a{
+    display:none
+}
+.search{
+    display: none;
+}
+.search-bar{
+    display: none;
+}
+.search-input i{
+    display: flex;
+    justify-self: end;
+    color: #ffffff;
+}
+.header-button{
+    width: 90px;
+    height: 23px;
+    background: #ffffff;
+    border-radius: 200px;
+    align-items: center;
+    border-style: none;
+    
+}
