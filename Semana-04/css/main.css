@@ -1,0 +1,239 @@
+img.f-image {
+    width: 331px;
+    height: 243px;
+  }
+  
+  .first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .first-section > div {
+    display: flex;
+    width: 100%;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-txt {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  
+  .logo-txt > h3 {
+    font-size: 18px;
+  }
+  .first-p{
+      width: 331px;
+      height: 60px;
+  }
+  .img-sect > div {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+  }
+  
+  #simplicity{
+    background: #EFE7E7;
+    align-self: flex-start;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #simplicity > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #simplicity > img{
+    width: 101px;
+    height: 82px;
+  }
+  #efficiency{
+    background: #EFE7E7;
+    align-self: center;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #efficiency > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #efficiency > img{
+    max-width: 101px;
+    max-height: 82px;
+  }
+  
+  #tracking{
+    background: #EFE7E7;
+    align-self: center;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #tracking > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #tracking > img{
+    width: 101px;
+    height: 82px;
+  }
+  
+  #confidence{
+    background: #EFE7E7;
+    align-self: center;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #confidence > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #confidence > img{
+    width: 101px;
+    height: 82px;
+  }
+  
+  #tracking{
+    background: #EFE7E7;
+    align-self: center;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #tracking > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #tracking > img{
+    width: 101px;
+    height: 82px;
+  }
+  
+  #managment{
+    background: #EFE7E7;
+    align-self: center;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 101px;
+    border-style: outset;
+    border: black;
+  }
+  
+  #managment > p{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #managment > img{
+    width: 101px;
+    height: 82px;
+  }
+  .info-container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .info-container > div > h4{
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  #about-us{
+    display: flex;
+    background: #E9E9E9;
+    flex-flow: wrap;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .first-part > h4{
+    font-weight: 700;
+    font-size: 18px;
+    align-items: flex-start;
+  }
+  .first-part > h6{
+    font-weight: 500;
+    font-size: 16px;
+    align-items: flex-start;
+  }
+  .first-part > .img-f-p{
+    align-items: flex-start;
+    width: 102px;
+    height: 58px;
+    padding: 10px;
+  }
+  .first-part > .first-parag{
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: row wrap;
+  }
+  #about-us > #second-part > .img-s-p{
+    align-items: flex-end;
+    width: 102px;
+    height: 58px;
+    padding: 10px;
+  }
+  #about-us > #second-part > .second-parag{
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+  
+  #form{
+      display: flex;
+      flex-direction: column;
+  }
+  /*mediaquery-mobile*/
+@media screen and (max-width: 480px) {
+    .search-input > .fa-solid.fa-magnifying-glass {
+      display: none;
+    }
+    aside.nav-menu {
+      display: none;
+    }
+  
+    #form {
+      display: none;
+    }
+  }
+  /* mediaquery-tablet */
+  @media only screen and (min-width: 468px) and (max-width: 768px) {
+    header > i .fa-solid.fa-magnifying-glass{
+      display: none;
+    }
+    aside.nav-menu {
+      display: none;
+    }
+    #form {
+      display: none;
+    }
+  }
