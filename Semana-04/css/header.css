@@ -23,7 +23,11 @@ button.h-menu {
     display: none;
 }
 .search-bar{
-    display: none;
+    display: flex;
+    flex-shrink: 480px;
+    flex-grow: 1024px;
+    border-radius: 200px;
+    border-style: none;
 }
 header > i{
   display: flex;
@@ -52,7 +56,7 @@ header i{
 }
 /*mediaquery-mobile*/
 @media screen and (max-width: 480px) {
-    .search-input > .fa-solid.fa-magnifying-glass {
+    header > .search-input > .fa-solid.fa-magnifying-glass {
       display: none;
     }
     aside.nav-menu {
@@ -65,8 +69,8 @@ header i{
   }
   /* mediaquery-tablet */
   @media only screen and (min-width: 468px) and (max-width: 768px) {
-    header > i .fa-solid.fa-magnifying-glass{
-      display: none;
+    header > i {
+        display: none;
     }
     aside.nav-menu {
       display: none;

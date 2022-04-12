@@ -20,7 +20,7 @@ footer{
   } 
   /*mediaquery-mobile*/
 @media screen and (max-width: 480px) {
-    .search-input > .fa-solid.fa-magnifying-glass {
+    header > .search-input > .fa-solid.fa-magnifying-glass {
       display: none;
     }
     aside.nav-menu {
@@ -33,7 +33,7 @@ footer{
   }
   /* mediaquery-tablet */
   @media only screen and (min-width: 468px) and (max-width: 768px) {
-    header > i .fa-solid.fa-magnifying-glass{
+    .i .fa-solid.fa-magnifying-glass{
       display: none;
     }
     aside.nav-menu {
@@ -41,5 +41,13 @@ footer{
     }
     #form {
       display: none;
+    }
+    .footer{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     }
   }
