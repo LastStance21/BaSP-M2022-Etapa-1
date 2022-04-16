@@ -62,10 +62,14 @@
    * palabras en mayúscula y las demás letras en minúscula 
    * (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
    */
-  var strex6 = 'sustainable compressor';
+  var initialString = 'sustainable compressor';
 
-  var upperletters = (strex6.charAt(0,13).toUpperCase() + strex6.charAt(12,22).toUpperCase());
-  var lowerletters = (strex6.toLowerCase().substring(1,11) + strex6.toLowerCase().substring(13,22));
-
-  var finderS = strex6.indexOf('s');
-  var finderC = strex6.indexOf('c');
+  var upperCasePosition = initialString.indexOf('s');
+  var firstUppercase = initialString[upperCasePosition].toUpperCase() + initialString.substring(1 , 11); // Sustainable
+  
+  var upperCasePosition2 = initialString.indexOf('c');
+  var secondUppercase = initialString[upperCasePosition2].toUpperCase() + initialString.substring(13 , initialString.length); // Compressor
+  
+  
+  var result = firstUppercase + " " + secondUppercase;
+  console.log('2d result:' + result)
