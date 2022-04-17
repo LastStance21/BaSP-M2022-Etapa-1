@@ -29,15 +29,15 @@
 
   if (age > 75){
       console.log('Ancient');
-  }else if(age >= 61 & age < 75){
+  }else if(age >= 61 && age < 75){
       console.log('Major Adult');
-  }else if(age >= 31 & age < 61){
+  }else if(age >= 31 && age < 61){
       console.log('Adult');
-  }else if(age >= 20 & age < 31){
+  }else if(age >= 20 && age < 31){
       console.log('Young');
-  }else if(age >= 13 & age < 20){
+  }else if(age >= 13 && age < 20){
       console.log('Teenager')
-  }else if(age >= 2 & age < 13){
+  }else if(age >= 2 && age < 13){
       console.log('Child');
   }else{
         console.log('Baby');
