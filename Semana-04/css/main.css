@@ -4,7 +4,6 @@ img.f-image {
   }
   
   .first-section {
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -214,7 +213,7 @@ img.f-image {
       flex-direction: column;
   }
   /*mediaquery-mobile*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     header > .search-input > .fa-solid.fa-magnifying-glass {
       display: none;
     }
@@ -236,7 +235,6 @@ img.f-image {
     }
     .first-section{
         display: flex;
-        text-align: center;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -262,4 +260,10 @@ img.f-image {
     #form {
       display: none;
     }
+}
+/* mediaquery-desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1028px) {
+  .nav-menu {
+    display: flex;
+  }
 }

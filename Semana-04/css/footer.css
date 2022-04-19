@@ -19,7 +19,7 @@ footer{
     padding: 4%;
   } 
   /*mediaquery-mobile*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     header > .search-input > .fa-solid.fa-magnifying-glass {
       display: none;
     }
@@ -32,7 +32,7 @@ footer{
     }
   }
   /* mediaquery-tablet */
-  @media only screen and (min-width: 468px) and (max-width: 768px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     .i .fa-solid.fa-magnifying-glass{
       display: none;
     }
@@ -51,3 +51,9 @@ footer{
     align-items: center;
     }
   }
+  /* mediaquery-desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1028px) {
+  nav {
+    display: flex;
+  }
+}

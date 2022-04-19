@@ -15,7 +15,7 @@ console.log("3a answer is:" + " " + months[10]);
 var months2 = ["January", "February", "March", "April", "May", "June", "July", "Augost", "September", "October", "November", "December"];
 
 months2.sort();
-console.log(months2);
+console.log('This is 3b result:' + months2);
 
 /***
  * Agregar un elemento al principio y al final del array (utilizar unshift y push)

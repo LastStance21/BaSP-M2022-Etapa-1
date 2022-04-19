@@ -2,14 +2,14 @@
 var vehicles = ['car', 'boat', 'plane', 'bycicle', 'trycicle']
 i = 0
 for(i in vehicles){
-  console.log(alert(vehicles[i]));
+  alert('This is 5a result:' + vehicles[i]);
 }
 // Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.
 var vehicles = ['car', 'boat', 'plane', 'bycicle', 'trycicle']
 for (var i = 0; i < vehicles.length; i++) {
-        vehicles[i] = vehicles[i].charAt(0).toUpperCase() + vehicles[i].slice(1);
-    console.log(alert(vehicles[i]));
-  }
+  vehicles[i] = vehicles[i].charAt(0).toUpperCase() + vehicles[i].slice(1);
+  alert('This is 5b result:' + vehicles[i]);
+}
 
 // Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto 
 // a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
@@ -20,7 +20,7 @@ i = 0
 for(i in vehicles){
   sentence=sentence +  " " + vehicles[i];
 }
-alert(sentence);
+alert('This is 5c result:' + sentence);
 
 // Crear una array vacío y con un bucle for de 10 repeticiones.
 //  Llenar el array con el número de la repetición, es decir que al final de la ejecución del 
@@ -29,6 +29,6 @@ alert(sentence);
 
 var emptarray = [];
 for (var i = 0; i < 10; i++) {
-    emptarray.push(i);
+  emptarray.push(i);
 }
-console.log(emptarray);
+console.log('This is 5d result:' + emptarray);

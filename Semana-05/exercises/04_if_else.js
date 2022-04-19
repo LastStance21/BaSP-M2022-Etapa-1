@@ -6,11 +6,11 @@
 
  var random = Math.random();
  if(random >= 0.5){
-     console.log(alert('Greater than 0,5.'));
+     alert('Greater than 0,5.');
  }else{
-     console.log(alert('Lower than 0,5.'));
+     alert('Lower than 0,5.');
  }
- console.log(random);
+ console.log('This is 4a result:' + random);
 
  /***
   * Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
