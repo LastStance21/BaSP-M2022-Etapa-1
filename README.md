@@ -33,3 +33,5 @@ To seeit you'll need to:
 2. Open the "views" folder.
 3. Open the desired file.
 ```
+You might also open it by this link:
+https://laststance21.github.io/BaSP-M2022-Etapa-1/Semana-06/views/index.html
