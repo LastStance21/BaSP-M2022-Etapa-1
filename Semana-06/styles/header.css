@@ -65,6 +65,8 @@ a:visited{
   padding-top: 2%;
   padding-bottom: 2%;
   flex: 1;
+  text-decoration: none;
+  text-align: center;
 }
 .login-signup:nth-child(4){
   display: flex;

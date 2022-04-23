@@ -1,0 +1,152 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+  .logo-txt{
+    text-align-last: start;
+  }
+  h1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    font-size:xx-large;
+    font-weight: 500;
+  }
+  h2{
+      display: flex;
+      flex-direction: column;
+      font-size: xx-large;
+      font-weight: 350;
+  }
+  h3{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 450;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 35%;
+}
+label{
+    padding: 5%;
+}
+input{
+    padding: 3%;
+    width: 96%;
+    border-radius: line;
+    border-color: #8d8b80;
+    border: 0.5%;
+}
+.under-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+}
+.fgtpaswd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    text-decoration: underline
+}
+.under-form > a{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-emphasis-color: green;
+    font-size: small;
+}
+#check-box{
+    width: 10%;
+}
+.rmberme{
+    font-size: small;
+    padding: 10%;
+}
+  .container-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30%;
+}
+  .submit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #AACE9B;
+    text-decoration: #666699;
+    border: none;
+    border-radius: 5px;
+  }
+  @media only screen and (min-width: 768px) {
+    .logo{
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    padding: 2%;
+    margin: 8%;
+}
+@media only screen and (min-width: 1024px){
+    main{
+        width: 65%;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    h1{
+        font-size: xx-large;
+    }
+}

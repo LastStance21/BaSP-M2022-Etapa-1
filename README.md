@@ -24,3 +24,12 @@ On the file of "Semana-05", you will find some excersies applying the JavaScript
 4. Right clivk on the page and open the "inspect" windows.
 5. Go to console, and refresh to watch all the js. code.
 ```
+## Sign Up & Login:
+
+This time, we create the sign up for employees pages, where they can do as many task as possible as create or delete users. As we also create the login page where the useres can enter and do their functions.
+To seeit you'll need to:
+```
+1. Enter to "Semana-06".
+2. Open the "views" folder.
+3. Open the desired file.
+```
