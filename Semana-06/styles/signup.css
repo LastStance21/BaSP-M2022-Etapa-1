@@ -34,15 +34,29 @@
     font-weight: 450;
   }
   form{
-      width: 30%;
+      width: 80%;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
   }
   .form{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: center;
+}
+.columns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
 }
 label{
     padding: 5%;
@@ -62,7 +76,7 @@ input{
     width: 60%;
     justify-content: center;
     align-content: center;
-    margin-left: 15%;
+    margin-left: 0%;
     padding: 7%;
 }
   .submit{
@@ -89,17 +103,29 @@ input{
         width: 40px;
         height: 40px;
     }
+    .columns{
+      flex-wrap: nowrap;
+      width: 40%;
+    }
+    .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+} 
+  .columns {
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 2%;
+  }
+  .container-button{
+    margin-left: 7%;
+  }
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: stretch;
-    padding: 2%;
-    margin: 8%;
-}
 @media only screen and (min-width: 1024px){
     main{
         width: 65%;
