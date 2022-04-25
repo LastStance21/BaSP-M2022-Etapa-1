@@ -125,6 +125,9 @@ input{
     margin-left: 7%;
   }
 }
+.error{
+  display: none;
+}
 
 @media only screen and (min-width: 1024px){
     main{
