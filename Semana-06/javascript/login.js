@@ -1,3 +1,5 @@
+var mailError = "";
+var passwordError = "";
 window.onload = function () {
   var userInput = document.getElementById("username");
   var loginButton = document.getElementById("login");
@@ -12,6 +14,7 @@ window.onload = function () {
       errorMessage.style = "display: none;";
     }
   }
+
   function clearError(){
         errorMessage.style = "display: none;";
         userInput.style = "border: none;";
@@ -41,4 +44,11 @@ psswdInput.onchange = () => validatePassword(psswdInput.value);
 loginButton.onblur = () => validatePassword(psswdInput.value);
 psswdInput.onfocus = () => clearErrorM(psswdInput.value);
 
+var errorUserPrint = errorMessage.textContent;
+var errorPsswdPrint =  errorM.textContent;
+var buttonConfirm = document.querySelector("input[type=submit]");
+buttonConfirm.addEventListener("click", clickConfirm);
+function clickConfirm() {
+  alert("Username: " + mailError.value + "\nPassword: " + passwordError.value);
+  }  
 }
