@@ -31,7 +31,7 @@ window.onload = function () {
           psswdInput.style = "border: 1px solid red;";
           errorM.style = "display: flex; color: red;";
       }else{
-        psswdInput.style = "border: 1px solid green";
+        psswdInput.style = "border: 1px solid green"
         errorM.style = "display: none;";
       }
   }
@@ -49,6 +49,6 @@ var errorPsswdPrint =  errorM.textContent;
 var buttonConfirm = document.querySelector("input[type=submit]");
 buttonConfirm.addEventListener("click", clickConfirm);
 function clickConfirm() {
-  alert("Username: " + mailError.value + "\nPassword: " + passwordError.value);
+  alert("Username: " + validateEmail().value + "\nPassword: " + validatePassword().value);
   }  
 }

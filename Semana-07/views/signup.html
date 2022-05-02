@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image" href="../assets/Logo.svg">
+		<script src="https://kit.fontawesome.com/8739f361b0.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/header.css">
+		<link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/signup.css">
+  </head>
+  <body>
+    <header>
+		<div class="nav-top">
+			<button class="h-menu"><i class="fa-solid fa-bars"></i></button>
+			<div class="tutorial-contact">
+				<a class="tutorial" href="#">Tutorials</a> <span>|</span> <a class="contact" href="">Contact</a>
+			</div>
+			<div class="search-input">
+				<input class="search-bar" type="text" name="Search" placeholder="Search..." >
+				<i class="fa-solid fa-magnifying-glass"></i>
+				</input>
+			</div>
+			<div class="login-signup">
+				<button class="login"><a href="../views/login.html">Login</a></button>
+				<button class="signup"><a href="../views/index.html">Home</a></button>
+			</div>
+		</div>
+	</header>
+    <body>
+        <div class="logo">
+            <img width="60" height="60" src="../assets/Logo.svg"></img>
+            <div class="logo-txt">
+                <h1>Trackgenix</h1>
+                <h3>Data Managment</h3>
+            </div>
+        </div>
+        <div class="form">
+            <h2>Sign Up</h2>
+            <form class="container">
+              <div class="columns">
+                <label for="first-name" class="f-name">First Name:</label>
+                <input type="text" id="firstName" placeholder="Enter Your First Name">
+                <p id="errornAme" class="error">This field must have at least 3 characters</p>
+                <label for="last-name" class="lname">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Enter Your Last Name">
+                <p class="error" id="laName">This field must have at least 3 characters</p>
+                <label for="dni" class="dni">D.N.I:</label>
+                <input type="number" id="dni" placeholder="Enter Your D.N.I Number">
+                <p class="error" id="dniError">This field must contain at least seven numbers</p>
+                <label for="birth-date" class="birth-date">Birth Date:</label>
+                <input type="date" id="birthDate"  value="2022/06/01" placeholder="dd/mm/yyyy">
+                <p class="error" id="bdError">Tis is an invalid date.</p>
+                <label for="phone" class="phone">Phone Number:</label>
+                <input type="number" id="phoneNumb" placeholder="5555555555">
+                <p class="error" id="invalidPhone">This is an invalid phone number</p>
+                <label for="adress" class="adress">Enter Your Address:</label>
+                <input type="text" id="adrress" placeholder="Write Yout Address Here">
+                <p class="error" id="addressError">This is an invalid address</p>
+              </div>
+              <div class="columns">
+                <label for="location" class="location">Location:</label>
+                <input type="text" id="location" placeholder="Enter Your Location Here">
+                <p class="error" id="invalidLocation">This is an invalid location</p>
+                <label for="pscode" class="pscode">Postal Code:</label>
+                <input type="number" id="psCode" placeholder="Enter Your Postal Code Here">
+                <p class="error" id="invalidPsC">This is an invalid postal code</p>
+                <label for="email" class="email">Email:</label>
+                <input type="email" id="Email" placeholder="Write Your Email Here">
+                <p class="error" id="invalidEmail">This is an invalid Email</p>
+                <label for="pssword" class="c-password">Password:</label>
+                <input type="password" id="password" placeholder="Enter Your Password Here">
+                <p class="error" id="invalidPassword">This is an invalid password</p>
+                <label for="c-psswd" class="c-psswd">Confirm Your Password:</label>
+                <input type="password" id="pswdconfirm" placeholder="Confirm Your Password">
+                <p class="error" id="invalidpsswconf">Your password does not match</p>
+              </div>
+                <span></span>
+                <div class="container-button">
+                    <input class="submit" type="submit" value="Create">
+                </div>
+            </form>
+        </div>
+    </div>
+    </body>
+      <footer>
+        <div class="footer-icons">
+			      <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <p class="mdeo">Montevideo, Uruguay</p>
+        <p class="copy">Copyright 2022 Radium Rocket. All rights reserved.</p>
+      </footer>
+      <script src="../javascript/signup.js"></script>
+  </body>
+</html>

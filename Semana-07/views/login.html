@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="icon" type="image" href="../assets/Logo.svg">
+		<script src="https://kit.fontawesome.com/8739f361b0.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/header.css">
+		<link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    <header>
+		<div class="nav-top">
+			<button class="h-menu"><i class="fa-solid fa-bars"></i></button>
+			<div class="tutorial-contact">
+				<a class="tutorial" href="#">Tutorials</a> <span>|</span> <a class="contact" href="">Contact</a>
+			</div>
+			<div class="search-input">
+				<input class="search-bar" type="text" name="Search" placeholder="Search..." >
+				<i class="fa-solid fa-magnifying-glass"></i>
+				</input>
+			</div>
+			<div class="login-signup">
+				<button  class="login"><a href="../views/index.html">Home</a></button>
+				<button  class="signup"><a href="../views/signup.html">Signup</a></button>
+			</div>
+		</div>
+	</header>
+    <div>
+        <div class="logo">
+            <img width="60" height="60" src="../assets/Logo.svg"></img>
+            <div class="logo-txt">
+                <h1>Trackgenix</h1>
+                <h3>Data Managment</h3>
+            </div>
+        </div>
+        <div class="form">
+            <h2>Log In</h2>
+            <form>
+                <label for="user" class="username">Username:</label>
+                <input type="email" id="username" placeholder="User or Email">
+                <span id="errorUsername">Username Not Valid</span>
+                <label for="pssw" class="pssword">Password:</label>
+                <input type="password" id="passworD" placeholder="Password">
+                <span id="errorpsswd">Invalid Password, it must contain at least 8 characters, or more</span>
+                <span></span>
+                <div class="under-form">
+                    <div class="container">
+                        <input type="checkbox" id="check-box" name="checkbox" value="Remember-me"><label for="rmber-me"
+                        class="rmberme">
+                        Remember me</label>
+                    </div>    
+                    <a class="fgtpaswd" href="">Forgot Password?</a>
+                </div>
+                <div class="container-button">
+                    <input id="login" class="submit" type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-icons">
+			<a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <p class="mdeo">Montevideo, Uruguay</p>
+        <p class="copy">Copyright 2022 Radium Rocket. All rights reserved.</p>
+    </footer>
+    <script src="../javascript/login.js"></script>
+</body>
+</html>
