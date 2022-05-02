@@ -65,13 +65,13 @@ window.onload = function () {
     }
   }
   function forminputsOk() {
-    return emailValidation(emailInput.value) && validation (passwordInput.value) &&
-    passwordInput.value.length > 7;
+    return emailValidation(usernameInput.value) && validation (passwordCall.value) &&
+    passwordCall.value.length > 7;
   }
   function serverRequest() {
       if (forminputsOk()) {
       fetch('https://basp-m2022-api-rest-server.herokuapp.com/login?email=' +
-              emailInput.value + '&password=' + passworInput.value)
+              usernameInput.value + '&password=' + passwordCall.value)
           .then(function (response) {
               return response.json();
           })
@@ -81,17 +81,16 @@ window.onload = function () {
           .catch(function (error) {
               alert(error.msg);
           });
-
-      // } else {
-      //     alert('Request rejected!\nOne or more inputs are not valid.\n' +
-      //         validationMessageLogin +
-      //         '\nCheck the inputs errors before continue!')
-
+      } else {
+          alert('Request rejected!\nOne or more inputs are not valid.\n' +
+              validationMessageLogin +
+              '\nCheck the inputs errors before continue!')
     }
   }
   buttonLogin.addEventListener("click", clickLogin);
-  function clickLogin() {
+  function clickLogin(event) {
     // alert ("Email: " + emailError + "\nPassword: " + passwordError)
+    event.preventDefault();
     serverRequest();
   }
 }
